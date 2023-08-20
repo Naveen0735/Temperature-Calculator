@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="left-sec">9:40</div>
+            <div class="right-sec">
+                <div class="icons"><img src="images/icons8-battery-30.png" class="image" ></div>
+                <div class="icons"><img src="images/icons8-wifi-30.png" class="image" ></div>
+                <div class="icons"><img src="images/icons8-signal-24.png" class="image" ></div>
+            </div>
+        </div>
+
+        <div class="heading"><p class="heading" >Temperature converter</p></div>
+        
+            <div class="first-c">
+
+                <div class="input-div">
+                    <input type="number" id="dg" class="dg">
+                    <span>Degrees</span>
+                </div>
+                
+                <div class="degree">
+                   <select class="temp" id="temp" >
+                        <option value="cel" class="deg">&#176;Celsius</option>
+                        <option value="fah" class="deg">&#176;Fahrenheit</option>
+                   </select>
+                   <span>Type</span>
+                </div>
+
+            </div>
+
+            <div class="result" id="result">
+                <span>Result</span>
+            </div>
+
+            <div class="button-div">
+                <button type="submit" class="submit" onclick="calculateTemp(); return false">Submit</button>
+            </div>
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

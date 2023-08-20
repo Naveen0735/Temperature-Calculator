@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+}
+.main{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 5px black;
+    padding: 40px;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-sec{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.right-sec{
+    display: flex;
+    gap: 10px;
+}
+.image{
+    height: 20px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.first-c{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.dg{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    position: relative;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    outline: none;
+}
+
+.temp{
+    background-color: transparent;
+    height: 29px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    margin-top: -1px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.input-div{
+    position: relative;
+}
+.degree{
+    position: relative;
+}
+.degree span , .input-div span{
+    position: absolute;
+    top: -19px;
+    left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(150, 149, 149);
+}
+.input-div span{
+    left: 0;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin: 20px 0px;
+    width: 100%;
+    /* background-color: lightblue; */
+    border-bottom: solid 1px gray;
+    position: relative;
+    /* border: solid 1px ; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.result span{
+    position: absolute;
+    left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: -12px;
+    color: rgb(150, 149, 149);
+}
+.submit{
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 123, 228);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 14px;
+}
+
